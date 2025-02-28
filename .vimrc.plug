@@ -1,0 +1,9 @@
+call plug#begin('~/.vim/plugged')
+
+Plug 'tpope/vim-fugitive', { 'commit': '4a745ea72fa93bb15dd077109afbb3d1809383f2'}
+
+call plug#end()
+
+call plug#begin()
+Plug 'preservim/nerdtree', { 'commit': '9b465acb2745beb988eff3c1e4aa75f349738230'}
+call plug#end()
